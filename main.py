@@ -14,3 +14,6 @@ st.write('''This is my first Web App. Enjoy it!''')
 st.write(df)
 
 st.line_chart(df)
+
+mySlider = st.slider('Celsius')
+st.write(mySlider, 'in Fahrenheit is',  mySlider * 9/5 + 32)
